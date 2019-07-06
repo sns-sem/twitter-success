@@ -6,7 +6,7 @@ Takes images from a Discord channel and uploads them onto Twitter. This package 
 
 After downloading, install dependencies with `npm install` or `yarn`.
 
-Requires a `.env` files with:
+Requires a `.env` file with:
 
 Twitter API keys:
 * API_PUBLIC
