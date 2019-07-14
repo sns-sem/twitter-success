@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
 const twitter = new (require('./lib/twitter'))();
+require('dotenv').config();
 
 bot.on('message', msg => {
   if (msg.channel.id !== process.env.CHANNEL_ID) return;
